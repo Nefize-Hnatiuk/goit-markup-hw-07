@@ -1,0 +1,23 @@
+.task {
+    display: flex;
+    gap: 30px;
+}
+
+.task-list-top {
+    position: relative;
+}
+
+.task-top {
+    
+    width: 370px;
+    height: 70px;
+    padding: 27px;
+    color: var(--hero-title-color);
+    position: absolute;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+
+    @include font (700, 14px, 1.14, 0.03em);  
+    text-align: center;  
+    text-transform: uppercase;
+}

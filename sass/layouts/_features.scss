@@ -1,0 +1,27 @@
+.features-list {
+    display: flex;
+    gap: 30px;
+}
+.features-item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+.features-icon-container {
+    height: 120px;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--command-back-color);
+}
+
+.features-title {
+    margin-bottom: 10px;
+    @include font (700, 14px, 1.14, 0.03em);  
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.features-text {
+    @include font (400, 14px, 1.71, 0.03em);
+}
