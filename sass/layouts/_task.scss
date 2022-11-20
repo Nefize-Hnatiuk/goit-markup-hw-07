@@ -1,13 +1,13 @@
-.task {
+.picture-list {
     display: flex;
     gap: 30px;
 }
 
-.task-list-top {
+.picture-list__item {
     position: relative;
 }
 
-.task-top {
+.picture-list__text {
     
     width: 370px;
     height: 70px;
